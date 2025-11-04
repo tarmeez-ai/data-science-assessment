@@ -1,4 +1,3 @@
--- ADD YOUR SQL QUERY HERE
 WITH total_shares AS (
   SELECT investor_id, SUM(no_of_shares) AS total_shares
   FROM investor_transactions
